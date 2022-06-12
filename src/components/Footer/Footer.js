@@ -9,6 +9,8 @@ import {
   FaTwitterSquare as Twitter,
   FaInstagram as Instagram,
   FaLinkedin as Linkedin,
+  FaYoutube as Youtube,
+  FaGithub as Github,
 } from "react-icons/fa"
 
 const Footer = () => {
@@ -18,7 +20,9 @@ const Footer = () => {
     <FooterStyles style={{ marginBottom: 0 }} className="section">
       <div className="container container__tight">
         <FooterMenuStyles className="footer__menu">
-          <h5>Links</h5>
+          <h5>
+            Links<span>.</span>
+          </h5>
           <ul>
             {menuItems.map((item, index) => {
               return (
@@ -36,7 +40,7 @@ const Footer = () => {
           <FooterMenuStyles className="footer__menu products__menu">
             <h5>
               <Link to="/products">
-                All Products<span>.</span>
+                Blog Posts<span>.</span>
               </Link>
             </h5>
             <ul>
@@ -57,12 +61,14 @@ const Footer = () => {
         )}
 
         {siteMeta.twitterUsername ||
+        siteMeta.githubUsername ||
+        siteMeta.youtubeUsername ||
         siteMeta.facebookUsername ||
         siteMeta.instagramUsername ||
         siteMeta.linkedinUsername ? (
           <FooterMenuStyles className="footer__menu social__menu">
             <h5>
-              Follow Barcadia<span>.</span>
+              Follow Me<span>.</span>
             </h5>
             <ul>
               {siteMeta.twitterUsername && (
@@ -73,6 +79,28 @@ const Footer = () => {
                     rel="nofollow noreferrer noopener"
                   >
                     <Twitter />
+                  </a>
+                </li>
+              )}
+              {siteMeta.githubUsername && (
+                <li>
+                  <a
+                    href={`https://www.github.com/${siteMeta.githubUsername}`}
+                    target="_blank"
+                    rel="nofollow noreferrer noopener"
+                  >
+                    <Github />
+                  </a>
+                </li>
+              )}
+              {siteMeta.youtubeUsername && (
+                <li>
+                  <a
+                    href={`https://www.youtube.com/${siteMeta.youtubeUsername}`}
+                    target="_blank"
+                    rel="nofollow noreferrer noopener"
+                  >
+                    <Youtube />
                   </a>
                 </li>
               )}
