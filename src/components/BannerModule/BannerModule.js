@@ -18,7 +18,7 @@ const BannerModule = ({ children, title, subTitle, price, enquire }) => {
           <StaticImage
             className="banner__image"
             imgClassName="banner__image--content"
-            src="../../../static/sand.jpg"
+            src="../../../static/haze.jpg"
             alt="Banner Image"
             layout="fullWidth"
             placeholder="blurred"

@@ -14,28 +14,25 @@ const Index = () => {
       <Seo title="Home" />
       <Layout>
         <BannerModule
-          title="Welcome to Barcadia"
-          subTitle="Using a combination of Gatsby and Contentful, Barcadia is ready to deploy and simple to use."
+          title="Hi, nice to have you here"
+          subTitle="Welcome to my Portfolio Website. I am Patrick Lemmer, a Full-Stack Web Developer from the beautiful state of Brandenburg in East Germany."
         />
         <BasicTextModule
-          title="A super-fast theme that is easy to get started, using the power of
-            GatsbyJS"
-          content="Using modern CSS properties such as grid, this theme is optmised for
-            speed and mobile devices. Giving users an excellent experience on
-            any device. Future-proofing your product."
+          title="I am a career changer."
+          content="Short note about the fact that I am changing careers into Full-Stack Web Development."
           link="/products"
-          linkText="View Products"
+          linkText="Read the full Story"
         />
         <PerksModule>
           <Perk title="The Title" content="The content" />
         </PerksModule>
         <Features
-          title="Featured Products from Barcadia."
-          introduction="Vivamus quam mauris, pulvinar vel mauris id, interdum semper neque. Proin malesuada libero eget tellus scelerisque, id egestas tortor egestas."
+          title="Portfolio."
+          introduction="This is an overview of the results of my Web Development journey."
         />
         <LatestPosts
-          title="The Latest from Barcadia"
-          introduction="Cras scelerisque, tellus sed gravida tincidunt, velit tellus blandit justo, nec viverra augue erat in erat. Maecenas iaculis sed purus non fringilla."
+          title="Blog"
+          introduction="Every so often, I pick up pen and paper (*gasp*) keyboard and notes app and write about things I come across as Web Developer. I started writing during my time in the career change program."
         />
       </Layout>
     </>

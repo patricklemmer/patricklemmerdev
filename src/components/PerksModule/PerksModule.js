@@ -9,7 +9,7 @@ const PerksModule = () => {
     <PerksModuleStyles className="section section__padding">
       <StaticImage
         className="perks__image--bg"
-        src="../../../static/abstract-building.jpg"
+        src="../../../static/forest.jpg"
         alt="Perks Module"
         layout="constrained"
         placeholder="tracedSVG"
@@ -17,11 +17,11 @@ const PerksModule = () => {
       <div className="perks__image--overlay"></div>
       <div className="container container__tight">
         <Perk
-          title="Built For Speed"
-          content="By using GatsbyJS, the Barcadia site is super-fast out of the box"
+          title="Web Developer"
+          content="Simplicity, functionality and appealing designs. That's what I`m after"
         >
           <StaticImage
-            src="../../../static/logos/gatsby-logo.svg"
+            src="../../../static/logos/dev.svg"
             alt="Perk Image"
             layout="constrained"
             placeholder="tracedSVG"
@@ -31,11 +31,11 @@ const PerksModule = () => {
           <Cross />
         </span>
         <Perk
-          title="Built For Content"
-          content="Contentful helps you edit your application with ease as your business expands"
+          title="Wildlife Photographer"
+          content="As wildlife photographer I strive to capture the raw beauty of our natural world"
         >
           <StaticImage
-            src="../../../static/logos/contentful-logo.svg"
+            src="../../../static/logos/com.svg"
             alt="Perk Image"
             layout="constrained"
             placeholder="tracedSVG"

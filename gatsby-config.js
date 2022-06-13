@@ -9,7 +9,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: "Patrick Lemmer",
-    description: "A super-fast site using GatsbyJS",
+    description: "Patrick Lemmer - Web Development Portfolio",
     author: "Patrick Lemmer",
     twitterUsername: "patrick_lemmer",
     githubUsername: "patricklemmer",
@@ -17,10 +17,10 @@ module.exports = {
     facebookUsername: "barcadia",
     instagramUsername: "patrick_lemmer",
     linkedinUsername: "patricklemmer",
-    image: "/gras.jpg",
-    siteUrl: "https://barcadia.netlify.com",
+    image: "/haze.jpg",
+    siteUrl: "https://patricklemmer.dev",
     developerName: "Patrick Lemmer",
-    developerUrl: "https://morganbaker.dev",
+    developerUrl: "https://patricklemmer.dev",
   },
   /* Your site config here */
   plugins: [
