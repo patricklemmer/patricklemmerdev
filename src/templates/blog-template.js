@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import Button from "../components/Button/Button"
-import { PostSingleStyles } from "../components/Post/PostStyles"
-import LatestPosts from "../components/Post/LatestPosts"
+import { PostSingleStyles } from "../components/Blog/PostStyles"
+import LatestPosts from "../components/Blog/LatestPosts"
 import RichText from "../components/RichText"
 
 const BlogTemplate = (contentfulBlog) => {
@@ -19,7 +19,7 @@ const BlogTemplate = (contentfulBlog) => {
             <article className="blogsingle__content">
               <RichText richText={content} />
               <div className="blogsingle__back">
-                <Button to="/news" text="Back to news" as={Link} />
+                <Button to="/blog" text="Back to blog" as={Link} />
               </div>
             </article>
           )}

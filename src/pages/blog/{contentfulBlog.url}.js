@@ -1,15 +1,15 @@
 import React from "react"
 import { graphql } from "gatsby"
-import PostTemplate from "../../templates/post-template"
+import BlogTemplate from "../../templates/blog-template"
 import Seo from "../../components/SEO"
 import Layout from "../../components/Layout"
 
-const Post = ({ data: { contentfulPost } }) => {
+const Blog = ({ data: { contentfulBlog } }) => {
   return (
     <>
-      <Seo title={contentfulPost.title} />
+      <Seo title={contentfulBlog.title} />
       <Layout>
-        <PostTemplate {...contentfulPost} />
+        <PostTemplate {...contentfulBlog} />
       </Layout>
     </>
   )
@@ -17,7 +17,7 @@ const Post = ({ data: { contentfulPost } }) => {
 
 export const data = graphql`
   query postQuery($id: String) {
-    contentfulPost(id: { eq: $id }) {
+    contentfulBlog(id: { eq: $id }) {
       title
       introduction
       content {
@@ -40,4 +40,4 @@ export const data = graphql`
   }
 `
 
-export default Post
+export default Blog
