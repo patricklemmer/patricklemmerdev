@@ -24,6 +24,7 @@ module.exports = {
   },
   /* Your site config here */
   plugins: [
+    `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     {
