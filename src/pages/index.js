@@ -6,7 +6,7 @@ import BasicTextModule from "../components/BasicTextModule/BasicTextModule"
 import PerksModule from "../components/PerksModule/PerksModule"
 import Perk from "../components/PerksModule/Perk"
 import Features from "../components/Features/Features"
-import LatestPosts from "../components/Post/LatestPosts"
+import LatestPosts from "../components/Blog/LatestPosts"
 
 const Index = () => {
   return (

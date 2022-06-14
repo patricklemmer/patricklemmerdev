@@ -4,7 +4,7 @@ import Layout from "../components/Layout"
 import Seo from "../components/SEO"
 import SimpleBanner from "../components/SimpleBanner/SimpleBanner"
 import ProductFeed from "../components/Feeds/ProductFeed"
-import PostFeed from "../components/Feeds/PostFeed"
+import BlogFeed from "../components/Feeds/BlogFeed"
 
 const getTemplate = (contentfulPage) => {
   const { feedType } = contentfulPage
@@ -14,7 +14,7 @@ const getTemplate = (contentfulPage) => {
       return <ProductFeed {...contentfulPage} />
 
     default:
-      return <PostFeed {...contentfulPage} />
+      return <BlogFeed {...contentfulPage} />
   }
 }
 
