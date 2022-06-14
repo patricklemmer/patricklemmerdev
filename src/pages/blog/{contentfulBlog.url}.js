@@ -9,33 +9,20 @@ const Blog = ({ data: { contentfulBlog } }) => {
     <>
       <Seo title={contentfulBlog.title} />
       <Layout>
-        <PostTemplate {...contentfulBlog} />
+        <BlogTemplate {...contentfulBlog} />
       </Layout>
     </>
   )
 }
 
 export const data = graphql`
-  query postQuery($id: String) {
-    contentfulBlog(id: { eq: $id }) {
+  query blogPostQuery {
+    contentfulBlog {
       title
-      introduction
+      createdAt(formatString: "DD MM YYYY")
       content {
         raw
-        references {
-          ... on ContentfulAsset {
-            contentful_id
-            gatsbyImageData(
-              width: 800
-              placeholder: BLURRED
-              formats: [AUTO, WEBP, AVIF]
-            )
-            description
-            __typename
-          }
-        }
       }
-      createdAt(formatString: "DD MMMM, YYYY")
     }
   }
 `
