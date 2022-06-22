@@ -11,13 +11,8 @@ const useLatestPost = () => {
       ) {
         nodes {
           title
-          gatsbyPath(filePath: "/blog/{contentfulBlog.url}")
-          publishedDate
-          introduction {
-            childMarkdownRemark {
-              excerpt
-            }
-          }
+          gatsbyPath(filePath: "/blog/{contentfulBlog.slug}")
+          publishedDate(formatString: "DD MMMM, YYYY")
         }
       }
     }

@@ -16,12 +16,19 @@ const Blog = ({ data: { contentfulBlog } }) => {
 }
 
 export const data = graphql`
-  query blogPostQuery {
-    contentfulBlog {
-      title
-      createdAt(formatString: "DD MM YYYY")
-      content {
-        raw
+  query contentfulBlog {
+    allContentfulBlog {
+      nodes {
+        slug
+        title
+        publishedDate(formatString: "DD MM YYYY")
+        gatsbyPath(filePath: "/blog/{contentfulBlog.slug}")
+        introduction {
+          id
+        }
+        content {
+          raw
+        }
       }
     }
   }

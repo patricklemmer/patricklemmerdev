@@ -2,6 +2,7 @@
   "name": "barcadia",
   "private": true,
   "description": "A super-fast site using GatsbyJS",
+  "homepage": "https://patricklemmer.dev",
   "version": "2.0.0",
   "license": "MIT",
   "scripts": {
@@ -45,9 +46,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bagseye/barcadia"
+    "url": "https://github.com/patricklemmer/patricklemmerdev"
   },
   "bugs": {
-    "url": "https://github.com/bagseye/barcadia/issues"
+    "url": "https://github.com/patricklemmer/patricklemmerdev/issues"
   }
 }
