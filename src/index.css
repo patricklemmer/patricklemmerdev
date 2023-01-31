@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Colors */
+
+    /* Backgrounds */
+    --color-bg-light: #ffffff;
+    --color-bg-dark: #191919;
+    /* Fonts */
+    --color-font-light: #181818;
+    --color-font-dark: #f9f9f9;
+
+    /* Buttons */
+    /* Primary light */
+    --color-button-primary-light-accent: #ffd479;
+    --color-button-primary-light-accent-hover: #f5c459;
+    /* Primary dark */
+    --color-button-primary-dark-accent: #dab565;
+    --color-button-primary-dark-accent-hover: #ba9b57;
+    /* Secondary light */
+    --color-button-secondary-light-accent: #d88b63;
+    --color-button-secondary-light-accent-hover: #cb7749;
+    /* Secondary dark */
+    --color-button-secondary-dark-accent: #d88b63;
+    --color-button-secondary-dark-accent-hover: #cb7749;
+    /* Tertiary light */
+    --color-button-tertiary-light: #f7f7f7;
+    --color-button-tertiary-light-hover: #f1f1f1;
+    /* Tertiary dark */
+    --color-button-tertiary-dark: #333333;
+    --color-button-tertiary-dark-hover: #3f3f3f;
+
+    /* Cards */
+    /* Card Light */
+    --color-card-light: #f7f7f7;
+    /* Card Dark */
+    --color-card-dark: #1f1f1f;
+    --color-card-detail-dark: #313131;
+
+    /* Chat bubbles */
+    --color-bubble-left: #d8d8d8;
+    --color-bubble-right: #218aff;
+
+    /* Social icons */
+    /* LinkedIn */
+    --color-hover-linkedin: #0077b5;
+    /* GitHub */
+    --color-hover-github: #b8b8b8;
+    --color-hover-github-dark: #696969;
+    /* Twitter */
+    --color-hover-twitter: #1da1f2;
+    /* Instagram */
+    --color-hover-instagram: #c13584;
+    /* dev.to */
+    --color-hover-dev: #b8b8b8;
+    --color-hover-dev-dark: #696969;
+    /* Medium */
+    --color-hover-medium: #b8b8b8;
+    --color-hover-medium-dark: #696969;
+  }
+
+  html {
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  body {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--color-bg-light);
+  }
+
+  img {
+    width: 100%;
+    opacity: 0.93;
+  }
+
+  h1,
+  h2 {
+    opacity: 0.9;
+  }
+
+  h3,
+  h4 {
+    opacity: 0.8;
+  }
+
+  p,
+  li {
+    opacity: 0.7;
+  }
+
+  .section {
+    @apply container mx-auto py-[7rem] px-2 md:min-h-screen;
+  }
+}
