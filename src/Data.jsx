@@ -119,7 +119,7 @@ export const projects = [
     info: 'The source of this portfolio website.',
     value: 'frontend',
     demo: '#home',
-    code: '',
+    code: 'https://github.com/patricklemmer/patricklemmerdev',
     tools: [
       { id: 1, name: '#react' },
       { id: 2, name: '#javascript' },
