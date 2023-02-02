@@ -43,7 +43,7 @@ function ProjectCards({ filterImages }) {
                       <a href={filterImage.demo} target="_blank">
                         {' '}
                         <input
-                          className="h-8 px-4 text-sm transition-colors duration-150 rounded-lg cursor-pointer bg-skin-button-tertiary-light border-gray-200 shadow-md text-skin-font-light focus:shadow-outline hover:bg-skin-button-tertiary-light-hover hover:border-gray-200 hover:opacity-90 dark:bg-skin-button-tertiary-dark dark:text-skin-font-dark dark:border-none dark:hover:bg-skin-button-tertiary-dark-hover"
+                          className="h-8 px-4 text-sm normal-case transition-colors duration-150 rounded-lg cursor-pointer bg-skin-button-tertiary-light border-gray-200 shadow-md text-skin-font-light focus:shadow-outline hover:bg-skin-button-tertiary-light-hover hover:border-gray-200 hover:opacity-90 dark:bg-skin-button-tertiary-dark dark:text-skin-font-dark dark:border-none dark:hover:bg-skin-button-tertiary-dark-hover"
                           type="submit"
                           value="Demo"
                         />
@@ -51,7 +51,7 @@ function ProjectCards({ filterImages }) {
                       <a href={filterImage.code} target="_blank">
                         {' '}
                         <input
-                          className="h-8 px-4 text-sm transition-colors duration-150 rounded-lg cursor-pointer bg-skin-button-tertiary-light border-gray-200 shadow-md text-skin-font-light focus:shadow-outline hover:bg-skin-button-tertiary-light-hover hover:border-gray-200 hover:opacity-90 dark:bg-skin-button-tertiary-dark dark:text-skin-font-dark dark:border-none dark:hover:bg-skin-button-tertiary-dark-hover"
+                          className="h-8 px-4 text-sm normal-case transition-colors duration-150 rounded-lg cursor-pointer bg-skin-button-tertiary-light border-gray-200 shadow-md text-skin-font-light focus:shadow-outline hover:bg-skin-button-tertiary-light-hover hover:border-gray-200 hover:opacity-90 dark:bg-skin-button-tertiary-dark dark:text-skin-font-dark dark:border-none dark:hover:bg-skin-button-tertiary-dark-hover"
                           type="submit"
                           value="Code"
                         />
@@ -60,7 +60,7 @@ function ProjectCards({ filterImages }) {
                         <a href={filterImage.casestudy} target="_blank">
                           {' '}
                           <input
-                            className="h-8 px-4 text-sm transition-colors duration-150 rounded-lg cursor-pointer bg-skin-button-tertiary-light border-gray-200 shadow-md text-skin-font-light focus:shadow-outline hover:bg-skin-button-tertiary-light-hover hover:border-gray-200 hover:opacity-90 dark:bg-skin-button-tertiary-dark dark:text-skin-font-dark dark:border-none dark:hover:bg-skin-button-tertiary-dark-hover"
+                            className="h-8 px-4 text-sm normal-case transition-colors duration-150 rounded-lg cursor-pointer bg-skin-button-tertiary-light border-gray-200 shadow-md text-skin-font-light focus:shadow-outline hover:bg-skin-button-tertiary-light-hover hover:border-gray-200 hover:opacity-90 dark:bg-skin-button-tertiary-dark dark:text-skin-font-dark dark:border-none dark:hover:bg-skin-button-tertiary-dark-hover"
                             type="submit"
                             value="Case Study"
                           />

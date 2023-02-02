@@ -36,20 +36,26 @@ function Hero() {
             again, I can most likely be found outdoors, as I am an avid wildlife
             photographer & nature addict.
           </p>
-          <div className="flex justify-center gap-3 w-full md:gap-5">
+          <div className="flex flex-wrap justify-center gap-3 w-full md:gap-5">
             <a
               href="https://drive.google.com/file/d/17hHdEl1k3uAEldAa2oxaLFdU4o0k2Q1H/view?usp=share_link"
               target="_blank"
             >
-              <button className="btn bg-skin-button-primary-light-accent px-4 text-[0.7rem] text-skin-font-light border-none shadow-md hover:bg-skin-button-primary-light-accent-hover dark:shadow-none dark:bg-skin-button-primary-dark-accent dark:hover:bg-skin-button-primary-dark-accent-hover">
+              <button className="btn bg-skin-button-primary-light-accent px-4 text-[0.9rem] normal-case text-skin-font-light border-none shadow-md hover:bg-skin-button-primary-light-accent-hover dark:shadow-none dark:bg-skin-button-primary-dark-accent dark:hover:bg-skin-button-primary-dark-accent-hover">
                 Resume
               </button>
             </a>
             <a href="#contact">
-              <button className="btn bg-skin-button-secondary-light-accent px-4 text-[0.7rem] text-skin-font-light border-none shadow-md hover:bg-skin-button-secondary-dark-accent-hover dark:shadow-none dark:bg-skin-button-secondary-dark-accent dark:hover:bg-skin-button-secondary-dark-accent-hover">
+              <button className="btn bg-skin-button-secondary-light-accent px-4 text-[0.9rem] normal-case text-skin-font-light border-none shadow-md hover:bg-skin-button-secondary-dark-accent-hover dark:shadow-none dark:bg-skin-button-secondary-dark-accent dark:hover:bg-skin-button-secondary-dark-accent-hover">
                 Contact
               </button>
             </a>
+            <label
+              htmlFor="my-modal-6"
+              className="btn bg-skin-button-four-light px-4 text-[0.9rem] normal-case text-skin-font-dark border-none shadow-md hover:bg-skin-button-four-light-hover dark:shadow-none dark:bg-skin-button-four-light dark:hover:bg-skin-button-four-light-hover"
+            >
+              Recruiter? This way!
+            </label>
           </div>
         </motion.div>
       </div>

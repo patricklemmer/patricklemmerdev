@@ -109,7 +109,8 @@ function Contact() {
                 bg-skin-button-tertiary-light
                 border-gray-200
                 shadow-md
-                text-[0.75rem]
+                text-[0.9rem]
+                normal-case
                 text-skin-font-light
                 transition-colors
                 duration-150

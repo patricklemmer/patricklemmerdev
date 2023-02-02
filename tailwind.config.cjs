@@ -17,34 +17,46 @@ module.exports = {
           'bg-dark': 'var(--color-bg-dark)',
 
           // Buttons
-          // Primary light
+          // Button #1 light
           'button-primary-light-accent':
             'var(--color-button-primary-light-accent)',
           'button-primary-light-accent-hover':
             'var(--color-button-primary-light-accent-hover)',
-          // Primary dark
+          // Button #1 dark
           'button-primary-dark-accent':
             'var(--color-button-primary-dark-accent)',
           'button-primary-dark-accent-hover':
             'var(--color-button-primary-dark-accent-hover)',
-          // Secondary light
+          // Button #2 light
           'button-secondary-light-accent':
             'var(--color-button-secondary-light-accent)',
           'button-secondary-light-accent-hover':
             'var(--color-button-secondary-light-accent-hover)',
-          // Secondary dark
+          // Button #2 dark
           'button-secondary-dark-accent':
             'var(--color-button-secondary-dark-accent)',
           'button-secondary-dark-accent-hover':
             'var(--color-button-secondary-dark-accent-hover)',
-          // Tertiary light
+          // Button #3 light
           'button-tertiary-light': 'var(--color-button-tertiary-light)',
           'button-tertiary-light-hover':
             'var(--color-button-tertiary-light-hover)',
-          // Tertiary dark
+          // Button #3 dark
           'button-tertiary-dark': 'var(--color-button-tertiary-dark)',
           'button-tertiary-dark-hover':
             'var(--color-button-tertiary-dark-hover)',
+          // Button #4 light
+          'button-four-light': 'var(--color-button-four-light)',
+          'button-four-light-hover': 'var(--color-button-four-light-hover)',
+          // Button #4 dark
+          'button-four-dark': 'var(--color-button-four-dark)',
+          'button-four-dark-hover': 'var(--color-button-four-dark-hover)',
+          // Button #5 light
+          'button-five-light': 'var(--color-button-five-light)',
+          'button-five-light-hover': 'var(--color-button-five-light-hover)',
+          // Button #5 dark
+          'button-five-dark': 'var(--color-button-five-dark)',
+          'button-five-dark-hover': 'var(--color-button-five-dark-hover)',
 
           // Cards
           // Light
@@ -52,6 +64,17 @@ module.exports = {
           // Dark
           'card-dark': 'var(--color-card-dark)',
           'card-detail-dark': 'var(--color-card-detail-dark)',
+
+          // Bubbles
+          'bubble-left': 'var(--color-bubble-left)',
+          'bubble-right': 'var(--color-bubble-right)',
+
+          // Modal
+          // Light
+          'modal-light': 'var(--color-modal-light)',
+          // Dark
+          'modal-dark': 'var(--color-modal-dark)',
+          'modal-detail-dark': 'var(--color-modal-detail-dark)',
 
           // Bubbles
           'bubble-left': 'var(--color-bubble-left)',
