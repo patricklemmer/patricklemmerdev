@@ -37,20 +37,19 @@ function Hero() {
             photographer & nature addict.
           </p>
           <div className="flex justify-center gap-3 w-full md:gap-5">
-            <button className="btn bg-skin-button-primary-light-accent px-4 text-[0.7rem] text-skin-font-light border-none shadow-md hover:bg-skin-button-primary-light-accent-hover dark:shadow-none dark:bg-skin-button-primary-dark-accent dark:hover:bg-skin-button-primary-dark-accent-hover">
-              <a
-                href="https://drive.google.com/file/d/17hHdEl1k3uAEldAa2oxaLFdU4o0k2Q1H/view?usp=share_link"
-                className=""
-                target="_blank"
-              >
+            <a
+              href="https://drive.google.com/file/d/17hHdEl1k3uAEldAa2oxaLFdU4o0k2Q1H/view?usp=share_link"
+              target="_blank"
+            >
+              <button className="btn bg-skin-button-primary-light-accent px-4 text-[0.7rem] text-skin-font-light border-none shadow-md hover:bg-skin-button-primary-light-accent-hover dark:shadow-none dark:bg-skin-button-primary-dark-accent dark:hover:bg-skin-button-primary-dark-accent-hover">
                 Resume
-              </a>
-            </button>
-            <button className="btn bg-skin-button-secondary-light-accent px-4 text-[0.7rem] text-skin-font-light border-none shadow-md hover:bg-skin-button-secondary-dark-accent-hover dark:shadow-none dark:bg-skin-button-secondary-dark-accent dark:hover:bg-skin-button-secondary-dark-accent-hover">
-              <a href="#contact" className="">
+              </button>
+            </a>
+            <a href="#contact">
+              <button className="btn bg-skin-button-secondary-light-accent px-4 text-[0.7rem] text-skin-font-light border-none shadow-md hover:bg-skin-button-secondary-dark-accent-hover dark:shadow-none dark:bg-skin-button-secondary-dark-accent dark:hover:bg-skin-button-secondary-dark-accent-hover">
                 Contact
-              </a>
-            </button>
+              </button>
+            </a>
           </div>
         </motion.div>
       </div>
