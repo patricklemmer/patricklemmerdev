@@ -20,6 +20,7 @@ import ChatApp from '../src/assets/projects/chatapp.webp'
 import MyFlixReact from '../src/assets/projects/react.webp'
 import MyFlixAngular from '../src/assets/projects/angular.webp'
 
+import blog0 from './assets/blog/blog0.jpg'
 import blog1 from './assets/blog/blog1.jpg'
 import blog2 from './assets/blog/blog2.jpg'
 import blog3 from './assets/blog/blog3.jpg'
@@ -233,30 +234,37 @@ export const projects = [
 export const blogs = [
   {
     id: 1,
+    image: blog0,
+    title: '#buildinpublic: A fullstack MERN app (with TypeScript)',
+    exerpt: 'An ongoing blog post about my #buildinpublic project, a MERN app.',
+    link: 'https://patricklemmerdev-blog.vercel.app/posts/buildinpublic-a-fullstack-mern-application-with-typescript',
+  },
+  {
+    id: 2,
     image: blog1,
     title: 'How to use a custom domain on GitHub pages',
     exerpt:
       'You just hosted a website on GitHub pages and now you are wondering how to add a custom domain to it to give your website that final touch? Here is how.',
-    link: 'https://medium.com/@patricklemmer/how-to-use-a-custom-domain-on-github-pages-2415be01162f',
+    link: 'https://patricklemmerdev-blog.vercel.app/posts/how-to-use-a-custom-domain-on-github-pages',
   },
   {
-    id: 2,
+    id: 3,
     image: blog2,
     title: 'Connect your contact form to an email account. HTML only',
     exerpt:
       'Your developer portfolio website, a small online shop, …., or a …. All of these websites would likely benefit from a contact form.',
-    link: 'https://medium.com/@patricklemmer/connect-your-contact-form-to-an-email-account-with-html-only-simple-quick-and-beginner-ba3d753587ce',
+    link: 'https://patricklemmerdev-blog.vercel.app/posts/connect-your-contact-form-to-an-email-account-with-html-only',
   },
   {
-    id: 3,
+    id: 4,
     image: blog3,
     title: 'Attention new web developers, use "this"!',
     exerpt:
       'It is very simple and easy to use, BUT it can help you over-proportionally compared to how simple it actually is.',
-    link: 'https://medium.com/@patricklemmer/attention-new-web-developers-use-this-from-the-beginning-of-your-developer-career-2bbfa9157f0e',
+    link: 'https://patricklemmerdev-blog.vercel.app/posts/use-this-from-the-beginning-of-your-developer-career',
   },
   {
-    id: 4,
+    id: 5,
     image: blog4,
     title: 'Subscribe, if you would like to be informed about future posts',
     exerpt:
