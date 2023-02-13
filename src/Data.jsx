@@ -25,6 +25,7 @@ import blog1 from './assets/blog/blog1.jpg'
 import blog2 from './assets/blog/blog2.jpg'
 import blog3 from './assets/blog/blog3.jpg'
 import blog4 from './assets/blog/blog4.jpg'
+import blog5 from './assets/blog/blog5.jpg'
 
 // *************************************
 // *************************************
@@ -234,13 +235,22 @@ export const projects = [
 export const blogs = [
   {
     id: 1,
+    image: blog5,
+    title:
+      'Why you should create a GitHub profile README (as a job seeking dev)',
+    exerpt:
+      'The GitHub profile README is a great way to sum up your GitHub profile and show viewers your most important stuff.',
+    link: 'https://patricklemmerdev-blog.vercel.app/posts/why-you-should-create-a-github-profile-readme-as-a-job-seeking-dev',
+  },
+  {
+    id: 2,
     image: blog0,
     title: '#buildinpublic: A fullstack MERN app (with TypeScript)',
     exerpt: 'An ongoing blog post about my #buildinpublic project, a MERN app.',
     link: 'https://patricklemmerdev-blog.vercel.app/posts/buildinpublic-a-fullstack-mern-application-with-typescript',
   },
   {
-    id: 2,
+    id: 3,
     image: blog1,
     title: 'How to use a custom domain on GitHub pages',
     exerpt:
@@ -248,7 +258,7 @@ export const blogs = [
     link: 'https://patricklemmerdev-blog.vercel.app/posts/how-to-use-a-custom-domain-on-github-pages',
   },
   {
-    id: 3,
+    id: 4,
     image: blog2,
     title: 'Connect your contact form to an email account. HTML only',
     exerpt:
@@ -256,7 +266,7 @@ export const blogs = [
     link: 'https://patricklemmerdev-blog.vercel.app/posts/connect-your-contact-form-to-an-email-account-with-html-only',
   },
   {
-    id: 4,
+    id: 5,
     image: blog3,
     title: 'Attention new web developers, use "this"!',
     exerpt:
@@ -264,7 +274,7 @@ export const blogs = [
     link: 'https://patricklemmerdev-blog.vercel.app/posts/use-this-from-the-beginning-of-your-developer-career',
   },
   {
-    id: 5,
+    id: 6,
     image: blog4,
     title: 'Subscribe, if you would like to be informed about future posts',
     exerpt:
