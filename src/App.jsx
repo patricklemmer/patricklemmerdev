@@ -1,19 +1,19 @@
 // Imports
 // React imports
-import React from 'react'
+import React from 'react';
 
 // Component imports
-import Navbar from './components/Navbar/Navbar'
-import Hero from './components/Hero/Hero'
-import About from './components/About/About'
-import Projects from './components/Projects/Projects'
+import Navbar from './components/Navbar/Navbar';
+import Hero from './components/Hero/Hero';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
 // import Services from './components/Services/Services'
-import Blog from './components/Blog/Blog'
-import Footer from './components/Footer/Footer'
-import Contact from './components/Contact/Contact'
+import Blog from './components/Blog/Blog';
+import Footer from './components/Footer/Footer';
+import Contact from './components/Contact/Contact';
 
 // Utility imports
-import ScrollToTop from './utilities/scrollToTop'
+import ScrollToTop from './utilities/scrollToTop';
 
 function App() {
   return (
@@ -33,9 +33,10 @@ function App() {
           <h3 className="font-bold text-lg">Hey you!</h3>
           <p className="py-4">
             Seeing you here, likely means that you are trying to find out more
-            about me. <br /> <br /> To make it as easy as possible, I have
-            created a digital profile card with the most important information
-            related to my. <br /> <br />
+            about me, and see if I am a potential fit for your open role. <br />{' '}
+            <br /> To make it as easy as possible, I have created a digital
+            profile card with the most relevant information related to my
+            profile as a job seeker. <br /> <br />
             No time wasted searching for stuff, it's all in one place. Just
             reach out if there is anything else you would like to know or
             directly get in touch for a chat. Looking forward to hearing from
@@ -60,7 +61,7 @@ function App() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
