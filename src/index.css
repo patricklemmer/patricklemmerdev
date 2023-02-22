@@ -100,6 +100,7 @@
     width: 100vw;
     background-color: var(--color-bg-light);
     overscroll-behavior: none;
+    overflow-x: hidden;
   }
 
   img {
@@ -123,6 +124,6 @@
   }
 
   .section {
-    @apply container mx-auto py-[7rem] px-2 md:min-h-screen;
+    @apply container mx-auto py-[3rem] px-3 sm:py-[6rem];
   }
 }
