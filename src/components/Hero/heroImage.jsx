@@ -1,9 +1,9 @@
 // Imports
 // React imports
-import React from 'react'
+import React from 'react';
 
 // Asset imports
-import Hero from '../../assets/hero/hero.jpg'
+import Hero from '../../assets/hero/hero.jpg';
 
 function HeroImage() {
   return (
@@ -13,11 +13,11 @@ function HeroImage() {
       <img
         src={Hero}
         alt="Hero image showing a vector graphic of an outdoor scene"
-        className="rounded-[20px] shadow-xl md:w-4/5 mx-auto dark:shadow-none"
+        className="rounded-md shadow-lg md:w-4/5 mx-auto dark:shadow-none"
         fetchpriority="high"
       />
     </picture>
-  )
+  );
 }
 
-export default HeroImage
+export default HeroImage;

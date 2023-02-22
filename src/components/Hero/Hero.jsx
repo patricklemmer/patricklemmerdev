@@ -1,16 +1,16 @@
 // Imports
 // React imports
-import React from 'react'
+import React from 'react';
 
 // Component imports
-import HeroImage from './heroImage'
+import HeroImage from './heroImage';
 
 // Other imports
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
 
 function Hero() {
   return (
-    <div className="hero section" id="home">
+    <div className="hero section mt-14" id="home">
       <div className="hero-content flex flex-col gap-6">
         <HeroImage />
         <motion.div
@@ -19,7 +19,7 @@ function Hero() {
           transition={{ duration: 0.5 }}
           className="max-w-md text-justify"
         >
-          <h1 className="text-[1.6rem] text-center font-bold mb-2 md:text-[3rem]">
+          <h1 className="text-[1.6rem] text-center font-bold mb-2 mt-6 md:text-[3rem]">
             Hello! I'm Patrick.
           </h1>
           <h2 className="text-lg text-center mb-2">
@@ -60,7 +60,7 @@ function Hero() {
         </motion.div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Hero
+export default Hero;

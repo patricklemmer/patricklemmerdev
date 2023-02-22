@@ -1,16 +1,16 @@
 // Imports
 // React imports
-import React from 'react'
+import React from 'react';
 
 function Contact() {
   return (
-    <div className="container mx-auto mb-48 px-8" id="contact">
+    <div className="section mb-12" id="contact">
       <div className="mb-8">
         <h2 className="text-[1.5rem] font-bold">Contact</h2>
         <div className="w-14 h-[3px] rounded-sm bg-skin-button-primary-light-accent"></div>
       </div>
-      <div className="w-full mx-auto md:w-3/4">
-        <div className="card bg-skin-card-light border border-gray-100 rounded-md p-6 dark:bg-skin-card-dark dark:border dark:border-neutral-800 dark:shadow-none">
+      <div className="w-full mx-auto sm:w-3/4 md:w-1/2">
+        <div className="card bg-skin-card-light border border-gray-100 rounded-md px-3 py-4 sm:px-4 dark:bg-skin-card-dark dark:border dark:border-neutral-800 dark:shadow-none">
           <form
             method="POST"
             action="https://public.herotofu.com/v1/b2154d00-977d-11ed-a003-6f0b76086b1c"
@@ -133,7 +133,7 @@ function Contact() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;

@@ -1,9 +1,9 @@
 // Imports
 // React imports
-import React from 'react'
+import React from 'react';
 
 // Data imports
-import { aboutLists } from '../../Data'
+import { aboutLists } from '../../Data';
 
 function AboutList() {
   return (
@@ -26,7 +26,7 @@ function AboutList() {
         </ol>
       ))}
     </div>
-  )
+  );
 }
 
-export default AboutList
+export default AboutList;

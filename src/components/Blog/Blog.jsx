@@ -1,12 +1,12 @@
 // Imports
 // React imports
-import React from 'react'
+import React from 'react';
 
 // Data imports
-import { blogs } from '../../Data'
+import { blogs } from '../../Data';
 
 // Asset imports
-import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
+import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
 
 function Blog() {
   return (
@@ -29,7 +29,7 @@ function Blog() {
                   loading="lazy"
                 />
               </figure>
-              <div className="card-body">
+              <div className="card-body text-justify">
                 <h2 className="card-title text-xl font-bold">{blog.title}</h2>
                 <p className="text-[0.9rem] mb-4 sm:text-[1rem]">
                   {blog.exerpt}
@@ -42,11 +42,11 @@ function Blog() {
                 </button>
               </div>
             </div>
-          )
+          );
         })}
       </div>
     </div>
-  )
+  );
 }
 
-export default Blog
+export default Blog;
