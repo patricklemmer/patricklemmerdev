@@ -4,28 +4,25 @@
 
 // *************************************
 // *************************************
-// Icons
-// import { HiComputerDesktop } from 'react-icons/hi2'
-// import { HiPencil } from 'react-icons/hi2'
-// import { HiPhoto } from 'react-icons/hi2'
-
-// *************************************
-// *************************************
 // Projects
-import Pokedex from '../src/assets/projects/pokedex.webp'
-import PatrickLemmerDev from '../src/assets/projects/patricklemmerdev.webp'
-import MeerkatDevelopment from '../src/assets/projects/meerkatdevelopment.webp'
-import Meet from '../src/assets/projects/meet.webp'
-import ChatApp from '../src/assets/projects/chatapp.webp'
-import MyFlixReact from '../src/assets/projects/react.webp'
-import MyFlixAngular from '../src/assets/projects/angular.webp'
+import Pokedex from '../src/assets/projects/pokedex.webp';
+import PatrickLemmerDev from '../src/assets/projects/patricklemmerdev.webp';
+import MeerkatDevelopment from '../src/assets/projects/meerkatdevelopment.webp';
+import Meet from '../src/assets/projects/meet.webp';
+import ChatApp from '../src/assets/projects/chatapp.webp';
+import MyFlixReact from '../src/assets/projects/react.webp';
+import MyFlixAngular from '../src/assets/projects/angular.webp';
 
-import blog0 from './assets/blog/blog0.jpg'
-import blog1 from './assets/blog/blog1.jpg'
-import blog2 from './assets/blog/blog2.jpg'
-import blog3 from './assets/blog/blog3.jpg'
-import blog4 from './assets/blog/blog4.jpg'
-import blog5 from './assets/blog/blog5.jpg'
+// Blogs
+import blog0 from './assets/blog/blog0.jpg';
+import blog1 from './assets/blog/blog1.jpg';
+import blog2 from './assets/blog/blog2.jpg';
+import blog3 from './assets/blog/blog3.jpg';
+import blog4 from './assets/blog/blog4.jpg';
+import blog5 from './assets/blog/blog5.jpg';
+
+// Chat With Pat
+import service0 from './assets/services/chats-with-pat.webp';
 
 // *************************************
 // *************************************
@@ -47,11 +44,6 @@ export const navLinks = [
     text: 'About',
     href: 'about',
   },
-  // {
-  //   id: 4,
-  //   text: 'Services',
-  //   href: 'services',
-  // },
   {
     id: 4,
     text: 'Blog',
@@ -59,41 +51,31 @@ export const navLinks = [
   },
   {
     id: 5,
+    text: 'Chats With Pat',
+    href: 'chatswithpat',
+  },
+  {
+    id: 6,
     text: 'Contact',
     href: 'contact',
   },
-]
+];
 
 // *************************************
 // *************************************
 // Service descriptions in service section (max 4 at a time)
 
-// export const services = [
-//   {
-//     id: 1,
-//     icon: <HiComputerDesktop />,
-//     title: 'Web Devlopment',
-//     text: 'From making things work...',
-//   },
-//   {
-//     id: 2,
-//     icon: <HiPencil />,
-//     title: 'Web Design',
-//     text: '...to making them look good...',
-//   },
-//   {
-//     id: 3,
-//     icon: <HiPhoto />,
-//     title: 'Multimedia',
-//     text: '...to presenting them in an appealing way.',
-//   },
-//   {
-//     id: 4,
-//     icon: <HiPhoto />,
-//     title: 'Something',
-//     text: 'As a sfotware developer with a background in photography, I am able to produce .',
-//   },
-// ]
+export const services = [
+  {
+    id: 1,
+    image: service0,
+    alt: 'Chats with Pat Logo',
+    title: '100% free',
+    text: 'This is my way to give back what I have already received. Since the beginning of my software development career I have met multiple developers of different levels, giving me advice, offering ways to help and simply welcoming a very interested and motivated but clueless guy into the industry. In "Chats with Pat" it will be you, me and a nice chat about all things code, job search as a developer and life in general. Most importantly though, it will be a chance for you to indirectly profit from all the advice I have received, so far.',
+    button: 'Schedule a chat',
+    link: 'https://calendly.com/chatswithpat/chat-with-pat?month=2023-02',
+  },
+];
 
 // // *************************************
 // // *************************************
@@ -106,7 +88,7 @@ export const buttons = [
   { id: 3, name: 'Fullstack', value: 'fullstack' },
   { id: 4, name: 'Mobile Development', value: 'mobile development' },
   // { id: 5, name: 'Multimedia', value: 'multimedia' },
-]
+];
 
 // *************************************
 // *************************************
@@ -226,7 +208,7 @@ export const projects = [
       { id: 5, name: '#restapi' },
     ],
   },
-]
+];
 
 // *************************************
 // *************************************
@@ -281,7 +263,7 @@ export const blogs = [
       'Sometimes I write abouth topics like software development, career change and my personal experiences transitioning into tech. Subscribe, if you would like to know about any future posts.',
     link: 'https://medium.com/@patricklemmer',
   },
-]
+];
 
 // *************************************
 // *************************************
@@ -309,7 +291,7 @@ export const tabs = [
     id: 5,
     buttonText: 'What Im doing now',
   },
-]
+];
 
 // About lists
 export const aboutLists = [
@@ -450,4 +432,4 @@ export const aboutLists = [
       },
     ],
   },
-]
+];

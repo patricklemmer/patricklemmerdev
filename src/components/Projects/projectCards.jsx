@@ -1,9 +1,9 @@
 // Imports
 // React imports
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 // Other imports
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion';
 
 function ProjectCards({ filterImages }) {
   return (
@@ -31,7 +31,7 @@ function ProjectCards({ filterImages }) {
                 <picture>
                   <source type="image/webp" srcSet="" />
                 </picture>
-                <div className="card-body">
+                <div className="card-body text-justify">
                   <h2 className="card-title text-[1.1rem] sm:text-xl">
                     {filterImage.title}
                   </h2>
@@ -88,11 +88,11 @@ function ProjectCards({ filterImages }) {
                   </div>
                 </div>
               </motion.div>
-            )
+            );
           })}
       </motion.div>
     </AnimatePresence>
-  )
+  );
 }
 
-export default ProjectCards
+export default ProjectCards;

@@ -1,35 +1,37 @@
 // Imports
 // React imports
-import React from 'react'
+import React from 'react';
 
 // Data imports
-// import { services } from '../../Data'
+import { services } from '../../Data';
 
 function ServiceItems() {
   return (
-    <div className="grid sm:grid-cols-2 mt-12 gap-12 m-2">
+    <div className="w-full mx-auto sm:w-3/4 md:w-1/2">
       {services.map((service) => {
         return (
-          <div
-            key={service.id}
-            className="card flex gap-4 p-6 bg-skin-card-light border border-gray-100 rounded-md dark:bg-skin-card-dark dark:border dark:border-neutral-800 dark:shadow-none"
-          >
-            <div>
-              <div className="flex gap-6 mb-4 items-center text-skin-font-light text-[1.3rem] dark:text-skin-font-dark">
-                {service.icon}
-                <h3 className="text-xl font-bold">{service.title}</h3>
-              </div>
-              <div>
-                <p className="text-[0.9rem] mb-4 sm:text-[1rem]">
-                  {service.text}
-                </p>
+          <>
+            <div className="card bg-skin-card-light border border-gray-100 rounded-md dark:bg-skin-card-dark dark:border dark:border-neutral-800 dark:shadow-none">
+              <figure>
+                <img src={service.image} alt="Shoes" />
+              </figure>
+              <div className="card-body text-justify">
+                <h2 className="card-title">{service.title}</h2>
+                <p>{service.text}</p>
+                <div className="card-actions justify-start">
+                  <button className="text-left mt-8 h-8 px-4 text-sm normal-case transition-colors duration-150 rounded-lg cursor-pointer bg-skin-button-tertiary-light border-gray-200 shadow-md text-skin-font-light focus:shadow-outline hover:bg-skin-button-tertiary-light-hover hover:border-gray-200 hover:opacity-90 dark:bg-skin-button-tertiary-dark dark:text-skin-font-dark dark:border-none dark:hover:bg-skin-button-tertiary-dark-hover">
+                    <a href={service.link} target="_blank" rel="noreferrer">
+                      {service.button}
+                    </a>
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-        )
+          </>
+        );
       })}
     </div>
-  )
+  );
 }
 
-export default ServiceItems
+export default ServiceItems;
