@@ -7,6 +7,7 @@
 // Projects
 import Pokedex from '../src/assets/projects/pokedex.webp';
 import PatrickLemmerDev from '../src/assets/projects/patricklemmerdev.webp';
+import ReactRouterVanlife from '../src/assets/projects/reactroutervanlife.webp';
 import MeerkatDevelopment from '../src/assets/projects/meerkatdevelopment.webp';
 import Meet from '../src/assets/projects/meet.webp';
 import ChatApp from '../src/assets/projects/chatapp.webp';
@@ -114,6 +115,22 @@ export const projects = [
   },
   {
     id: 2,
+    image: ReactRouterVanlife,
+    title: 'React Router v6',
+    info: 'A basic vanlife app build with React Router v6.',
+    value: 'frontend',
+    demo: 'https://statuesque-kashata-fa42d8.netlify.app/',
+    code: 'https://github.com/patricklemmer/react-router-van-life',
+    tools: [
+      { id: 1, name: '#react' },
+      { id: 2, name: '#reactrouterv6' },
+      { id: 3, name: '#javascript' },
+      { id: 4, name: '#googlefirestore' },
+      { id: 5, name: '#netlify' },
+    ],
+  },
+  {
+    id: 3,
     image: MeerkatDevelopment,
     title: 'Meerkat Development',
     info: 'My freelancing portfolio website. Coming soon!',
@@ -128,7 +145,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     image: Pokedex,
     title: 'Pokedex',
     info: 'An API for Pokemon fans (and everyone else).',
@@ -144,7 +161,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     image: Meet,
     title: 'Meet',
     info: 'A serverless PWA React App, built with the TDD approach.',
@@ -160,7 +177,7 @@ export const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     image: ChatApp,
     title: 'Chat App',
     info: 'A React Native Chat App.',
@@ -175,7 +192,7 @@ export const projects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     image: MyFlixReact,
     title: 'MyFlix (React)',
     info: 'A movie database API built with React and JavaScript.',
@@ -193,7 +210,7 @@ export const projects = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     image: MyFlixAngular,
     title: 'MyFlix (Angular)',
     info: 'New UI, for an existing API. Built with Angular and TypeScript.',
@@ -411,7 +428,7 @@ export const aboutLists = [
   {
     id: 5,
     header: 'What I am doing now 📅',
-    date: 'Updated on January 30th, 2023',
+    date: 'Updated on April 24th, 2023',
     lists: [
       {
         id: 1,
@@ -420,7 +437,8 @@ export const aboutLists = [
       },
       {
         id: 2,
-        point: 'I am building a pet adoption web application.',
+        point:
+          'I have just finished a project on React Router v6 and will now start building a fullstack pet adoption web application.',
       },
       {
         id: 3,
