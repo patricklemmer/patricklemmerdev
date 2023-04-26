@@ -38,7 +38,7 @@ function Hero() {
           </p>
           <div className="flex flex-wrap justify-center gap-3 w-full md:gap-5">
             <a
-              href="https://drive.google.com/file/d/17hHdEl1k3uAEldAa2oxaLFdU4o0k2Q1H/view?usp=share_link"
+              href="https://drive.google.com/file/d/1YZJE1opQNGfK7k6KaRRU-aUFQut5dgOR/view?usp=share_link"
               target="_blank"
             >
               <button className="btn bg-skin-button-primary-light-accent px-4 text-[0.9rem] normal-case text-skin-font-light border-none shadow-md hover:bg-skin-button-primary-light-accent-hover dark:shadow-none dark:bg-skin-button-primary-dark-accent dark:hover:bg-skin-button-primary-dark-accent-hover">
