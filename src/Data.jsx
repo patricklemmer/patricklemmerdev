@@ -444,7 +444,7 @@ export const aboutLists = [
       {
         id: 3,
         point:
-          'I am currently building my first reald world product - Confido. A B2C marketplace application with React and TypeScript, that allows users to find a match for a particular service. Details available soon!',
+          'I am currently building my first real world product - Confido. A B2C marketplace application with React and TypeScript, that allows users to find a match for a particular service. Details available soon!',
       },
       {
         id: 4,
