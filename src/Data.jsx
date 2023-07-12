@@ -8,6 +8,7 @@
 import Pokedex from '../src/assets/projects/pokedex.webp';
 import PatrickLemmerDev from '../src/assets/projects/patricklemmerdev.webp';
 import ReactRouterVanlife from '../src/assets/projects/reactroutervanlife.webp';
+import CarShowcase from '../src/assets/projects/carshowcase.webp';
 import MeerkatDevelopment from '../src/assets/projects/meerkatdevelopment.webp';
 import Meet from '../src/assets/projects/meet.webp';
 import ChatApp from '../src/assets/projects/chatapp.webp';
@@ -115,6 +116,22 @@ export const projects = [
   },
   {
     id: 2,
+    image: CarShowcase,
+    title: 'Car Rental',
+    info: 'A car rental service, sourcing imagery and data from an API.',
+    value: 'fullstack',
+    demo: 'https://car-showcase-rosy.vercel.app/',
+    code: 'https://github.com/patricklemmer/car-showcase',
+    tools: [
+      { id: 1, name: '#nextjs' },
+      { id: 2, name: '#react' },
+      { id: 3, name: '#typescript' },
+      { id: 4, name: '#rapidapi' },
+      { id: 5, name: '#tailwindcss' },
+    ],
+  },
+  {
+    id: 3,
     image: ReactRouterVanlife,
     title: 'React Router v6',
     info: 'A basic vanlife app build with React Router v6.',
@@ -130,7 +147,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     image: MeerkatDevelopment,
     title: 'Meerkat Development',
     info: 'My freelancing portfolio website. Coming soon!',
@@ -145,7 +162,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     image: Pokedex,
     title: 'Pokedex',
     info: 'An API for Pokemon fans (and everyone else).',
@@ -161,7 +178,7 @@ export const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     image: Meet,
     title: 'Meet',
     info: 'A serverless PWA React App, built with the TDD approach.',
@@ -177,7 +194,7 @@ export const projects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     image: ChatApp,
     title: 'Chat App',
     info: 'A React Native Chat App.',
@@ -192,7 +209,7 @@ export const projects = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     image: MyFlixReact,
     title: 'MyFlix (React)',
     info: 'A movie database API built with React and JavaScript.',
@@ -206,22 +223,6 @@ export const projects = [
       { id: 2, name: '#javascript' },
       { id: 3, name: '#bootstrap' },
       { id: 4, name: '#scss' },
-      { id: 5, name: '#restapi' },
-    ],
-  },
-  {
-    id: 8,
-    image: MyFlixAngular,
-    title: 'MyFlix (Angular)',
-    info: 'New UI, for an existing API. Built with Angular and TypeScript.',
-    value: 'fullstack',
-    demo: 'https://github.com/patricklemmer/myFlix-Angular-client#how-to-run-this-project',
-    code: 'https://github.com/patricklemmer/myFlix-Angular-client',
-    tools: [
-      { id: 1, name: '#angular' },
-      { id: 2, name: '#typescript' },
-      { id: 3, name: '#scss' },
-      { id: 4, name: '#angularmaterial' },
       { id: 5, name: '#restapi' },
     ],
   },
