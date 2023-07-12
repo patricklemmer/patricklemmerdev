@@ -373,7 +373,7 @@ export const aboutLists = [
       },
       {
         id: 2,
-        point: 'JavaScript',
+        point: 'JavaScript, TypeScript',
       },
       {
         id: 3,
@@ -429,7 +429,7 @@ export const aboutLists = [
   {
     id: 5,
     header: 'What I am doing now 📅',
-    date: 'Updated on April 24th, 2023',
+    date: 'Updated on July 12th, 2023',
     lists: [
       {
         id: 1,
@@ -439,14 +439,19 @@ export const aboutLists = [
       {
         id: 2,
         point:
-          'I have just finished a project on React Router v6 and will now start building a fullstack pet adoption web application.',
+          'I have just finished a car rental service project utilizing Next.js, TypeScript and RapidAPI and will now start building a fullstack pet adoption web application.',
       },
       {
         id: 3,
-        point: 'I have started to learn TypeScript.',
+        point:
+          'I am currently building my first reald world product - Confido. A B2C marketplace application with React and TypeScript, that allows users to find a match for a particular service. Details available soon!',
       },
       {
         id: 4,
+        point: 'My main focus is currently on improving my TypeScript skills.',
+      },
+      {
+        id: 5,
         point: 'I am currently planning my next photographic trip 🌍',
       },
     ],
