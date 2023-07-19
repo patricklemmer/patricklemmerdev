@@ -1,18 +1,18 @@
 // Imports
 // React imports
-import React from 'react'
+import React from 'react';
 
 // Asset import
-import { FaLinkedinIn } from 'react-icons/fa'
-import { FaTwitter } from 'react-icons/fa'
-import { FaGithub } from 'react-icons/fa'
-import { FaInstagram } from 'react-icons/fa'
-import { FaDev } from 'react-icons/fa'
-import { BsMedium } from 'react-icons/bs'
+import { FaLinkedinIn } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaDev } from 'react-icons/fa';
+import { BsMedium } from 'react-icons/bs';
 
 function Footer() {
   // Updates the n (year) in the footer automatically
-  const Year = new Date()
+  const Year = new Date();
 
   return (
     <>
@@ -30,6 +30,16 @@ function Footer() {
         </div>
         <div>
           <span className="footer-title">"Build to learn" projects</span>
+          <a
+            href="https://nextjs-crud-ruddy.vercel.app/"
+            target="_blank"
+            className="link link-hover"
+          >
+            List App
+            <span className="badge ml-1 text-[0.85rem] bg-skin-card-light text-skin-font-light max-w-fit border border-gray-300 shadow-md rounded-full px-2 sm:text-[0.8rem] dark:border-zinc-700 dark:bg-skin-card-detail-dark dark:text-skin-font-dark">
+              This improved my CRUD and API know how
+            </span>
+          </a>
           <a
             href="https://patricklemmer-wildlife-tours.netlify.app/"
             target="_blank"
@@ -155,7 +165,7 @@ function Footer() {
         </div>
       </footer>
     </>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
